@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue Booking - Medi-Caps University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Medi-Caps</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#">Log in</a>
+                <a href="#" class="btn-signup">Sign up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="service-page">
+        <h1>Venue Booking</h1>
+        <section class="venue-section">
+            <h2>Available Venues</h2>
+            <div class="venue-items">
+                <!-- Venue Item 1 -->
+                <div class="venue-item">
+                    <img src="500 seating.jpg" alt="Major Auditorium" class="venue-img">
+                    <div class="venue-details">
+                        <h3>Major Auditorium</h3>
+                        <p>Capacity: 500 seats</p>
+                        <p>Upload Application</p>
+                        <input type="file" class="file-input" data-venue="Major Auditorium">
+                        <button class="book-btn" disabled>Request Booking</button>
+                    </div>
+                </div>
+
+                <!-- Venue Item 2 -->
+                <div class="venue-item">
+                    <img src="projectorroom.webp" alt="Projector Room" class="venue-img">
+                    <div class="venue-details">
+                        <h3>Projector Room</h3>
+                        <p>Capacity: 50 seats</p>
+                        <p>Upload Application</p>
+                        <input type="file" class="file-input" data-venue="Projector Room">
+                        <button class="book-btn" disabled>Request Booking</button>
+                    </div>
+                </div>
+
+                <!-- Venue Item 3 -->
+                <div class="venue-item">
+                    <img src="Qblock.jpg" alt="Q Block Auditorium" class="venue-img">
+                    <div class="venue-details">
+                        <h3>Q block Auditorium</h3>
+                        <p>Capacity: 300 seats</p>
+                        <p>Upload Application</p>
+                        <input type="file" class="file-input" data-venue="Qblock Auditorium">
+                        <button class="book-btn" disabled>Request Booking</button>
+                    </div>
+                </div>
+
+                <!-- Venue Item 4 -->
+                <div class="venue-item">
+                    <img src="vblock.png" alt="V Block Classrooms" class="venue-img">
+                    <div class="venue-details">
+                        <h3>V Block Classrooms</h3>
+                        <p>Capacity: 30 seats</p>
+                        <p>Upload Application</p>
+                        <input type="file" class="file-input" data-venue="V Block Classrooms">
+                        <button class="book-btn" disabled>Request Booking</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-summary-section">
+            <h2>Your Booking Requests</h2>
+            <div id="booking-summary">
+                <!-- Booking summary will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Medi-Caps University. All rights reserved.</p>
+    </footer>
+
+    <script src="venue.js"></script>
+</body>
+</html>

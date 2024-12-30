@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering - Medi-Caps University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Medi-Caps</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#">Log in</a>
+                <a href="#" class="btn-signup">Sign up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="service-page">
+        <h1>Food Ordering</h1>
+        <section class="menu-section">
+            <h2>Today's Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item" data-name="Burger" data-price="100">
+                    <img src="burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>Juicy potato patty with fresh vegetables</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="menu-item" data-name="Choole Bhature" data-price="150">
+                    <img src="choolebhature.png" alt="Choole Bhature">
+                    <h3>Choole Bhature</h3>
+                    <p>Traditional Bhature with Choole & Salad</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="menu-item" data-name="Fried Rice" data-price="120">
+                    <img src="friedrice.jpg" alt="Fried Rice">
+                    <h3>Fried Rice</h3>
+                    <p>Fried Rice with crispy vegetables</p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </section>
+
+       <!-- Cart Section -->
+<section class="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+    </div>
+    <div id="total-price">Total: ₹0</div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Medi-Caps University. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

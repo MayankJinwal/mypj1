@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medi-Caps University Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Medi-Caps</div>
+            <div class="nav-links">
+                <a href="#">Get the App</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Add Service</a>
+                <a href="#" class="btn-login">Log in</a>
+                <a href="#" class="btn-signup">Sign up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Medi-Caps University Booking</h1>
+            <p>Discover the best services in your university</p>
+            <div class="search-container">
+                <select id="location">
+                    <option value="campus">Main Campus</option>
+                    <option value="library">Library</option>
+                    <option value="cafeteria">Cafeteria</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Search for a service, venue, or resource">
+                <button id="search-btn">Search</button>
+            </div>
+        </section>
+
+        <section class="services">
+            <a href="food.html" class="service-card">
+                <img src="food.webp" alt="Food Order">
+                <h3>Food Order</h3>
+                <p>Order food from university cafeteria</p>
+            </a>
+            <a href="venue.html" class="service-card">
+                <img src="venue.jpg" alt="Venue Booking">
+                <h3>Venue Booking</h3>
+                <p>Book venues for events or study</p>
+            </a>
+            <a href="library.html" class="service-card">
+                <img src="library.jpg" alt="Library Resources">
+                <h3>Library Resources</h3>
+                <p>Access and reserve library materials</p>
+            </a>
+            <a href="projector.html" class="service-card">
+                <img src="projectors.jpg" alt="Projector Booking">
+                <h3>Projector Booking</h3>
+                <p>Reserve projectors for presentations</p>
+            </a>
+            <a href="counselor.html" class="service-card">
+                <img src="counselor.webp" alt="Counselor Appointment">
+                <h3>Counselor Appointment</h3>
+                <p>Schedule meetings with university counselors</p>
+            </a>
+            <a href="sports.html" class="service-card">
+                <img src="sports.webp" alt="Sports Equipment">
+                <h3>Sports Equipment</h3>
+                <p>Book sports gear for your activities</p>
+            </a>
+        </section>
+
+        <section class="auth">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="login-username" placeholder="Username" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-username" placeholder="Username" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Medi-Caps University. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
